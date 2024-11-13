@@ -1,7 +1,7 @@
 @keyframes rock {
     0%, 20%, 40% { transform: translateY(0); }  
     10%, 30%      { transform: translateY(-20px); } 
-    50%           {content: url(/assets/images/rock.png);
+    50%           {content: url(./assets/images/rock.png);
        transform: scale(1.1); 
       }
         
@@ -9,7 +9,7 @@
   @keyframes scissors {
     0%, 20%, 40% { transform: translateY(0); }   
     10%, 30%      { transform: translateY(-20px); }
-    50%           {content: url(/assets/images/scissor.png); 
+    50%           {content: url(./assets/images/scissor.png); 
       transform: scale(1.1); 
     }     
   }
@@ -17,7 +17,7 @@
   @keyframes paper {
     0%, 20%, 40% { transform: translateY(0); }   
     10%, 30%      { transform: translateY(-20px); }
-    50%           {content: url(/assets/images/paper.png); 
+    50%           {content: url(./assets/images/paper.png); 
       transform: scale(1.1); 
     }     
   }
