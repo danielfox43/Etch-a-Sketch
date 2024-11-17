@@ -1,54 +1,11 @@
-@keyframes rock {
-    0%, 20%, 40% { transform: translateY(0); }  
-    10%, 30%      { transform: translateY(-20px); } 
-    50%           {content: url(./assets/images/rock.png);
-       transform: scale(1.1); 
-      }
-        
-  }
-  @keyframes scissors {
-    0%, 20%, 40% { transform: translateY(0); }   
-    10%, 30%      { transform: translateY(-20px); }
-    50%           {content: url(./assets/images/scissor.png); 
-      transform: scale(1.1); 
-    }     
-  }
-  
-  @keyframes paper {
-    0%, 20%, 40% { transform: translateY(0); }   
-    10%, 30%      { transform: translateY(-20px); }
-    50%           {content: url(./assets/images/paper.png); 
-      transform: scale(1.1); 
-    }     
-  }
-  html, body {
-    background-color: rgb(193, 235, 255);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-.cc {
-    transform: rotateY(180deg);
-    display: inline-block;
-}
-
-
-.middleImages {
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: center;
-  gap: 20px;
-}
-#choices {
+#screenspace {
   display: flex;
-  gap: 10px;
- 
+  flex-direction: column;
+  height: 90vh;
+  width: 90wh;
+  margin: 0;
+  padding: 0;
 }
-#choices button {
-flex:1;
-border-radius: 10px;
-background-color: rgb(255, 234, 202);
-min-height: 70px;
-font-size: 40px;
-font-weight: 600;
-cursor: pointer;
-border: 2px solid black;
+.start {
+opacity: 0.1;
 }
